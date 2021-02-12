@@ -22,3 +22,7 @@ deploy:
   app: egc-examen-carsantir
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
+notifications:
+  email:
+    recipients:
+      - carsantir@alum.us.es
